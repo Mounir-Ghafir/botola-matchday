@@ -58,3 +58,26 @@ MongoDB Atlas cluster must whitelist `0.0.0.0/0`. Never commit `.env`.
 ## Build guide reference
 
 This project follows a 10-phase build guide at `/home/mounir/Downloads/BOTOLA_MATCHDAY_BUILD_GUIDE.md`. Each phase has a copy-paste prompt for an AI assistant. Phases must be executed in strict order (0 → 10), and the build is not yet complete.
+
+---
+
+## CHECKPOINT — Completed up to Phase 0
+
+Last session finished **Phase 0 (Manual Setup)** on 30 May 2026.
+
+### What was done:
+1. ✅ **Backend scaffolded** — `server/` with Express 4, Mongoose 9, dotenv, cors, nodemon
+2. ✅ **Frontend scaffolded** — `client/` with Vite 8 + React 19 + Tailwind v4 + React Router v7 + Axios
+3. ✅ **All empty files created** — config, models, routes, middleware, components, pages, services
+4. ✅ **`.env` configured** — MongoDB Atlas URI set (IP whitelisted, connection verified)
+5. ✅ **AGENTS.md written** — current file, contains project gotchas
+6. ✅ **Pushed to GitHub** — `https://github.com/Mounir-Ghafir/botola-matchday`
+
+### Next: Phase 1 — Backend Foundation
+
+Build these 3 files (prompt at line 326 of the build guide):
+- `server/config/db.js`
+- `server/middleware/errorHandler.js`
+- `server/server.js`
+
+Tell the agent to **start with Phase 1** when resuming.
